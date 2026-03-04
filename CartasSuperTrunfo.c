@@ -8,10 +8,10 @@ int main() {
     char estado1, estado2;
     char codigo1[4], codigo2[4];
     char cidade1[20], cidade2[20];
-    usigned int populacao1, populacao2;
+    unsigned int populacao1, populacao2;
     float area1, area2;
     float pib1, pib2;
-    usigned int turismo1, turismo2;
+    unsigned int turismo1, turismo2;
     
     
   // Área para entrada de dados
@@ -59,8 +59,8 @@ int main() {
     percapita1 = (pib1 * 1000000000) / populacao1;
     percapita2 = (pib2 * 1000000000) / populacao2;
 
-    densidade1 = (float) populacao1 / area1;
-    densidade1 = (float) populacao2 / area2;
+    densidade1 = (float)populacao1 / area1;
+    densidade2 = (float)populacao2 / area2;
 
   // Área nível mestre
 
@@ -111,13 +111,13 @@ int main() {
     printf(" \n");
     
     printf("Comparação de Cartas:\n");
-    pritf("População: %i\n", resultado1);
-    pritf("Área: %i\n", resultado2);
-    pritf("PIB: %i\n", resultado3);
-    pritf("Pontos turísticos: %i\n", resultado4);
-    pritf("Densidade populacional: %i\n", resultado5);
-    pritf("PIB percapita: %i\n", resultado6);
-    pritf("Super Poder: %i\n", resultado7);
+    printf("População: %i\n", resultado1);
+    printf("Área: %i\n", resultado2);
+    printf("PIB: %i\n", resultado3);
+    printf("Pontos turísticos: %i\n", resultado4);
+    printf("Densidade populacional: %i\n", resultado5);
+    printf("PIB percapita: %i\n", resultado6);
+    printf("Super Poder: %i\n", resultado7);
   
     return 0;
 } 
